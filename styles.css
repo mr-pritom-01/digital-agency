@@ -186,3 +186,27 @@
 .app {
     width: 350px;
 }
+
+/* blog container starts here */
+.blogs {
+    height: 60vh;
+    background-color: gray;
+    text-align: center;
+}
+.blog-h {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    font-size: 60px;
+}
+.blog-p {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+.card-img {
+    width: 30%;
+}
+.card-p {
+    font-size: 20px;
+}
