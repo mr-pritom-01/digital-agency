@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* top heading bar */
+.nav-container {
+    background-color: rgba(32, 31, 31, 0.492);
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    /* box-shadow: 5px 5px 10px; */
+}
+
+.bar-text {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    border-radius: 3px;
+}
+
+.bar-text:hover {
+    background-color: red;
+}
+
+.logo-photo {
+    padding: 10px;
+    width: 350px;
+    height: 90px;
+    cursor: pointer;
+}
+
+/* banner styles starts from here */
+.banner-section {
+    background-image: url("asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 50px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.banner-head {
+    font-size: 90px;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.description {
+    font-size: 30px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.btn-red {
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: rgba(220, 220, 220, 0.651);
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+}
+/* service sector starts */
+.service-container {
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    color: white;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon {
+    width: 70px;
+    margin-bottom: 25px;
+}
+.box{
+    width: 160px;
+    height: 120px;;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px;
+}
+.ser-des {
+    width: 60%;
+}
+
+.first-two-box {
+    display:flex;
+    gap: 5px;
+    margin-top: 5px;
+}
