@@ -120,7 +120,7 @@
 .ser-des {
     width: 60%;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .first-two-box {
@@ -151,9 +151,38 @@
     font-size: 50px;
 }
 .service-container {
-    padding: 30px;
+    padding: 60px;
     margin: auto;
     align-items: center;
     justify-content: space-around;
 }
-/* red section */
+/* appointment container starts from here */
+.appintment-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    width: 65%;
+    margin: auto;
+    margin-top: -5%;
+    border-radius: 50px;
+    border-style: none;
+    color:white;
+    padding: 30px;
+    justify-content: space-around;
+}
+.phone-call {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+.phone {
+    margin-top: 40px;
+    border-right: 3px solid black;
+    padding: 0px 40px;
+
+}
+.app {
+    width: 350px;
+}
